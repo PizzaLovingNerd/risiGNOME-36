@@ -25,7 +25,7 @@ Requires: adwcolor
 This is where we are going to put changes we want to make for the GNOME desktop.
 
 %prep
-%autosetup -n risiGNOME-main
+%autosetup -n risiGNOME-36-main
 rm gnome-shell-extension-risi-gnome.spec
 
 %install
