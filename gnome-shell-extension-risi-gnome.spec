@@ -1,8 +1,8 @@
 %global extuuid		risiGNOME@risi.io
 %global extdir		%{_datadir}/gnome-shell/extensions/%{extuuid}
 %global gschemadir	%{_datadir}/glib-2.0/schemas
-%global gitname		risiGNOME
-%global giturl		https://github.com/pizzalovingnerd/%{gitname}-36
+%global gitname		risiGNOME-36
+%global giturl		https://github.com/pizzalovingnerd/%{gitname}
 %global srcdir		%{_builddir}/%{gitname}-main
 
 Name:		gnome-shell-extension-risi-gnome
@@ -11,8 +11,8 @@ Release:	10%{?dist}
 Summary:	Some of risiOS GNOME changes
 
 License:	GPLv2+
-URL:		https://github.com/pizzalovingnerd/%{gitname}-36
-Source0:	https://github.com/pizzalovingnerd/%{gitname}-36/archive/refs/heads/main.tar.gz
+URL:		https://github.com/pizzalovingnerd/%{gitname}
+Source0:	https://github.com/pizzalovingnerd/%{gitname}/archive/refs/heads/main.tar.gz
 
 
 BuildArch:	noarch
